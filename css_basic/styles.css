@@ -15,3 +15,14 @@ body {
     flex: 1; 
     overflow-y: auto; 
   }
+  @media (max-width: 768px) {
+    body {
+      flex-direction: column;
+    }
+    main {
+      flex-direction: column; 
+    }
+    article, aside {
+      flex: 1; 
+    }
+  }

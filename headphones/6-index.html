@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holberton School</title>
+    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="font-awesome/css/all.css"> 
+</head>
+
+<style>
+
+
+body {
+    font-family: sans-serif,"source sans 3";
+    margin: 0;
+    }
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+  background-color: #090b0e;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    color: #080808;
+    display:flex;
+    flex-direction: column;
+  
+}
+
+ .container p {
+  color: #0e0b0b;
+  text-align: center;
+  word-break: break-all;
+ }
+
+.hero-content {
+  flex: 1;
+  max-width: 600px;
+  margin-right: 2rem;
+}
+
+
+
+
+.hero-cta {
+  display: inline-block;
+  background-color: var(--color-primary);
+  color: #fff;
+  text-decoration: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.hero-cta:hover {
+  background-color: #da5b5b;
+}
+
+.hero-pentagram {
+  flex: 4;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+
+.pentagon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 50px;
+  background-color: rgb(214, 69, 69);
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38% );
+
+}
+</style>
+<body>
+
+    <section class="Our-results-section">
+        <div class="container">
+          <h2 class="Our-results-Title">Our results speak for themselves</h2>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut<br> 
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco<br> 
+            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in<br> 
+            voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+            <div class="our-result-grid">
+                <div class="hero-pentagram">
+                    <div class="pentagon"></div>
+                <h3>+2%</h3>
+                <p>Lorem ipsum dolor</p>
+              </div>
+      
+              <div class="our-result-grid">
+                <div class="hero-pentagram">
+                    <div class="pentagon"></div>
+                  <h3>+2%</h3>
+                  <p>Lorem ipsum dolor</p>
+                </div>
+
+                <div class="our-result-grid">
+                    <div class="hero-pentagram">
+                        <div class="pentagon"></div>
+                    <h3>+2%</h3>
+                    <p>Lorem ipsum dolor</p>
+                  </div>
+
+                  <div class="our-result-grid">
+                    <div class="hero-pentagram">
+                        <div class="pentagon"></div>
+                      <h3>+2%</h3>
+                      <p>Lorem ipsum dolor</p>
+                    </div>
+        </div>
+      </section>
+
+</body>
+</html>

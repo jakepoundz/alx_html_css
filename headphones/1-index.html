@@ -16,7 +16,9 @@ body {
     width: 100%;
     height: 100;
     line-height: 1.5;
+  
 }
+
 header {
     position: relative;
 }
@@ -49,7 +51,7 @@ h2 {
 /* What we do grid */
 .what-we-do-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Adjust for desired number of columns */
+    grid-template-columns: repeat(4, 1fr); 
     grid-gap: 20px; 
     margin-top: 380px;
     margin-left: 50px;
@@ -63,6 +65,13 @@ h2 {
 
 .what-we-do-text {
     font-size: large;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .what-we-do-grid {
+        grid-template-columns: repeat(1, 1fr); /* Single column on mobile */
+    }
 }
 </style>
 <body>

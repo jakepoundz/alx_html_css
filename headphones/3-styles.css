@@ -1,0 +1,86 @@
+       /* General Styles */
+       body {
+        margin: 0;
+        font-family: sans-serif,"source sans 3";
+    }
+    /*Contact form*/
+    
+     .contact-form {
+        padding: 50px 0;
+    }
+    
+    h2 {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+     #contact-form label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    
+    #contact-form {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    #contact-form input[type="text"],
+    #contact-form input[type="email"],
+    #contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        box-sizing: border-box;
+        transition: border-color 0.3s ease;
+    }
+    .contact-us-section [type="submit"] {
+        background-color: rgb(224, 96, 96);
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin-right: 50px;
+    }
+    
+    #contact-form input[type="text"]:focus,
+    #contact-form input[type="email"]:focus,
+    #contact-form textarea:focus {
+        border-color: #3a3a3b;
+        outline: none;
+        box-shadow: 0 0 5px grey(0, 123, 255, 0.5);
+    }
+    
+    
+    #contact-form button[type="submit"] {
+        background-color: rgb(235, 101, 101);
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        text-align: center;
+        margin-left: 150px;
+    }
+    #contact-form button[type="submit"]:hover {
+        background-color: rgb(201, 68, 68);
+    
+    }
+    
+    
+    
+    .contact-us-section h2 {
+        font-size: 2em;
+        margin-bottom: 50px;
+        margin-top: 100px;
+        text-align: center;
+    }

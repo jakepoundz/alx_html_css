@@ -1,0 +1,41 @@
+   /* Footer Styling */
+   footer {
+    background-color: #0b0b25;
+    padding: 30px 0;
+    align-items: center;
+}
+.footer-content {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.copyright, .social-links, .navigation {
+    margin: 0 20px;
+}
+.social-links a, .navigation a {
+    text-decoration: none;
+    color: black(6, 6, 29);
+    margin: 0 10px;
+}
+.social-links a:hover, .navigation a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    padding: 25px;
+    margin-right: 450px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+.copyright {
+    margin-right: 185px;
+    color: #fff;
+    display: flex;
+    text-align: center;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holberton School</title>
+    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="font-awesome/css/all.css"> 
+</head>
+
+<style>
+       /* General Styles */
+body {
+    margin: 0;
+    font-family: sans-serif,"source sans 3";
+}
+/*Contact form*/
+
+ .contact-form {
+    padding: 50px 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+ #contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+.contact-us-section [type="submit"] {
+    background-color: rgb(224, 96, 96);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 50px;
+}
+
+#contact-form input[type="text"]:focus,
+#contact-form input[type="email"]:focus,
+#contact-form textarea:focus {
+    border-color: #3a3a3b;
+    outline: none;
+    box-shadow: 0 0 5px grey(0, 123, 255, 0.5);
+}
+
+
+#contact-form button[type="submit"] {
+    background-color: rgb(235, 101, 101);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    margin-left: 150px;
+}
+#contact-form button[type="submit"]:hover {
+    background-color: rgb(201, 68, 68);
+
+}
+
+
+
+.contact-us-section h2 {
+    font-size: 2em;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+</style>
+<body>
+
+    
+
+    <section class="Contact-us-section">
+        <h2 class="Contact-us-Title">Contact Us</h2>
+     
+    
+
+    <form id="contact-form">
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="message">Your Message</label><br>
+        <textarea id="message" name="message"></textarea><br>
+        <button type="submit">CALL TO ACTION</button>
+      </form>
+
+      </section>
+</body>
+</html>
